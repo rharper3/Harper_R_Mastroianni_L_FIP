@@ -106,8 +106,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	width: 445px;
 	height: 0px;
-	margin-top: 140px;
+	margin-top: 63px;
 	margin-left: auto;
+
 }
 #mainNav ul
 {
@@ -137,9 +138,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #mainNav ul li a:hover
 {
-	background-color: #b2bfb3;
-	color: #454545;
-	padding: 1px;
+	color: #0c120a;
+}
+
+#mainNav ul li a
+{
+	color: #1b5644;
 
 }
 
@@ -155,8 +159,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #accountIcon li img
 {
-	padding: 5px;
-
+	padding: 3px;
+    margin-right: 16px;
 }
 
 
@@ -227,7 +231,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 
 
-#mainFooter ul li
+#mainFooter ul li 
 {
 	list-style-type: none;
 	display:inline;
@@ -236,10 +240,21 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	font-size: 16px;
 }
 
+#mainFooter ul li a:hover
+{
+	color: #1b5644;
+}
+
+#mainFooter ul li a
+{
+	color: #0c120a;
+}
+
 .FooterNav ul
 {
 	padding: 0px;
 	margin: 10px;
+
 }
 
 .FooterNav ul li
@@ -273,7 +288,9 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	margin-left: auto;
 	width: 310px;
 	color: #454545;
-	margin-top: 58px;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	font-size: 13px;
 }
 
 /*Page 2 - Notice we are using one style sheet for all of the pages*/
@@ -325,6 +342,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 410px;
 }
 
+#supplements
+{
+	margin-top: 115px;
+}
 #mainContact
 {
 	width: 940px;
@@ -339,8 +360,16 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #contact
 {
 	margin-left: 15px;
+	line-height: 25px;
+
 }
 
+
+#mapArea h3
+{
+
+   
+}
 #mapArea
 {
 	width: 380px;
@@ -354,7 +383,14 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding: 0px;
 }
 
-#mapArea h2
+#mapArea ul li
+{
+	font-size: 15px;
+	line-height: 25px;
+
+}
+
+#mapArea h2 
 {
 	font-size: 21px;
 	margin-top: 0px;
